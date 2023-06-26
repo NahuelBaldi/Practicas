@@ -1,0 +1,37 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: bisque;
+}
+.productos{
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    /* el margen para separar a las cajas del producto */
+    box-shadow: 0px 20px 20px rgba(0,0,0,0.2);
+}
+.producto h2{
+    /*  al h2 no hay que ponerle un punto por que no es una clase */
+    font-size: 18px;
+    font-weight: 200;
+    
+    /* esto es el grosor de la fuente */
+
+}
+.productos img{
+    width: 300px;
+    height: 300px;
+    margin-left: 15%;
+    /* el left empuja hacia la derecha */
+}
+.productos .descripcion{
+    color: firebrick;
+    text-align: center;
+    font-size: 18px;
+}
+.productos .precio{
+    color: black;
+    font-weight: 300;
+    text-align: end;
+    font-size: 16px;
+}

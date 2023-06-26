@@ -1,0 +1,41 @@
+body{
+    background-color: khaki;
+}
+nav{
+    background-color: dimgray;
+    /*color: beige;*/
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+    width: 99%;
+}
+h1{
+    display: flex;
+    align-items: center;
+    font-size: 24px; 
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    /* tratar de mover el log mas a la derecha */
+}
+a{
+    color: goldenrod;
+    padding: 8px;
+    margin-right: 10%;
+    text-decoration: none;
+    border-radius: 5px;
+    /* transition: background-color #f39b0e 1s;el tiempo esta en mili segundos */
+    font-size: 20px;
+
+}
+a:hover{
+    background-color: khaki;
+    cursor:pointer;
+    text-decoration: underline;
+    font-size: 25px;
+    transition: .5s;
+}
